@@ -1,0 +1,31 @@
+.container {
+    padding: 15px;
+}
+table {
+    font-size: 0.9rem;
+}
+th, td {
+    padding: 10px;
+}
+h1, h2, h3 {
+    font-size: 1.5rem;
+}
+@media (max-width: 768px) {
+    table {
+        font-size: 0.75rem;
+    }
+    h1, h2, h3 {
+        font-size: 1.25rem;
+    }
+}
+table {
+    word-wrap: break-word;
+    white-space: normal;
+}
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.test-section {
+    margin-top: 20px;
+}
